@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KlayTech | Preços</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="precos.css">
+
+ <link rel="icon" type="image/png" href="img/KlayTech_logo-removebg.png">
+</head>
+<header class="navbar">
+    <div class="container-logo">
+        <img src="img/KlayTech_logo-removebg.png" alt="Logo">
+    </div>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="precos.html" class="ative">Serviços</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+</header>
+<body>
+
+<section class="hero">
+    <h1>Planos para elevar o seu negócio</h1>
+    <p>Escolha a solução ideal para crescer no digital</p>
+</section>
+
+<section class="pricing">
+
+    <div class="card" onclick="openModal('basico')">
+        <h2>Website Básico</h2>
+        <div class="price">10.000 – 16.000 MZN</div>
+        <button class="btn">Ver detalhes</button>
+    </div>
+
+    <div class="card" onclick="openModal('institucional')">
+        <h2>Website Institucional</h2>
+        <div class="price">22.000 – 40.000 MZN</div>
+        <button class="btn">Ver detalhes</button>
+    </div>
+
+    <div class="card" onclick="openModal('sistema')">
+        <h2>Sistema Web</h2>
+        <div class="price">45.000 – 100.000 MZN</div>
+        <button class="btn">Ver detalhes</button>
+    </div>
+
+    <div class="card" onclick="openModal('ecommerce')">
+        <h2>Loja Online</h2>
+        <div class="price">60.000 – 120.000 MZN</div>
+        <button class="btn">Ver detalhes</button>
+    </div>
+
+</section>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">✕</span>
+        <h3 id="title"></h3>
+        <p id="desc"></p>
+        <ul id="list"></ul>
+        <button class="btn" onclick="fazerPedido()">Fazer Pedido</button>
+    </div>
+</div>
+
+    <footer>
+      <p> Copyright © 2026 KlayTech. Todos  direitos reservados</p>
+
+      <p>Este website foi desenvolvido para apresentar nossos serviços e projetos. <br> 
+
+        Todas as marcas, nomes e conteúdos pertencem aos seus respectivos proprietários. <br>
+
+        Construído com foco em performance, design e experiência do utilizador
+    </p>
+    <p>Email: klay.webservices@gmail.com</p>
+
+    </footer>
+
+<script src="precos.js"></script>
+
+</body>
+</html>
