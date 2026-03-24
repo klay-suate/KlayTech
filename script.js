@@ -1,23 +1,23 @@
-//Animacao 
-const elements = document.querySelectorAll(".fade")
+// Animação de scroll reveal
+const elements = document.querySelectorAll(".fade");
 
-window.addEventListener("scroll",()=>{elements.forEach(el=>{if (el.getBoundingClientRect().top<window.innerHeight)
-{
-    el.classList.add("show")
+window.addEventListener("scroll", () => {
+    elements.forEach(el => {
+        const rect = el.getBoundingClientRect().top;
+
+        if (rect < window.innerHeight * 0.88) {
+            el.classList.add("show");
+        }
+    });
+});
+
+// Botão WhatsApp
+function WhatsApp() {
+    window.open("https://wa.me/258870718218");
 }
-})
-})
 
-
-//Whatssap
-function Whatssap(){
-    window.open(
-        "https://wa.me/258870718218" 
-    )
-}
-
-//Formulario
-function sendEmail(e){
-    e.preventDefault()
-    alert("Mensagem enviada!")
+// Opcional: feedback ao enviar formulário
+function sendEmail(e) {
+    e.preventDefault();
+    alert("Mensagem enviada!");
 }
