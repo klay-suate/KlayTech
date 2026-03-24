@@ -1,182 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta name="description" content="KlayTech - Desenvolvimento de websites profissionais em Moçambique. Criamos sites modernos, rápidos e responsivos.">
-    <meta name="keywords" content="Desenvolvimento Web, Websites, Moçambique, Criação de Sites, KlayTech">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KlayTech</title>
+
+    <meta name="description" content="KlayTech - Desenvolvimento de websites profissionais. Criamos sites modernos, rápidos e responsivos.">
+    <meta name="keywords" content="Desenvolvimento Web, Websites, Criação de Sites, KlayTech">
     <meta name="author" content="KlayTech">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    initial-scale=1.0">
-    <title>Klay Services</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
     <link rel="icon" type="image/png" href="img/KlayTech_logo-removebg.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header class="navbar">
-       <div class="logo">
-        <img src="img/KlayTech_logo-removebg.png" alt="Logo">
-    </div>
-    <nav>
-        <a href="#" class="ative">Início</a>
-        <a href="precos.html">Serviços</a>
-        <a href="projetos.html">Projetos</a>
-        <a href="sobre.html">Sobre</a>
+<header class="navbar fade">
+    <div class="nav-content">
+        <img src="img/KlayTech_logo-removebg.png" class="logo">
 
-           <div class="btnWhatssap">
-                <button class="btn" onclick="Whatssap()">
-                    Whatssap
-                </button>
-        </div> 
-
+        <nav>
+            <a class="active">Início</a>
+            <a href="precos.html">Serviços</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="sobre.html">Sobre</a>
         </nav>
-        
-    </header>
-        
 
+        <button id="sapp" onclick="WhatsApp()" class="btn-primary small">
+            WhatsApp
+        </button>
+    </div>
+</header>
 
-    <section class="hero fade">
-        <h1>
-            Criação de websites profissionais para empresas que querem vender online
-        </h1>
+<section class="hero fade">
+    <h1>Websites e Sistemas modernos para empresas que querem crescer</h1>
 
-        <p>
-            WebSites e aplicações web profissionais que o seu negócio precisa para aumentar as vendas
-            
-        </p>
+    <p>Soluções digitais profissionais, rápidas e projectadas para aumentar resultados.</p>
 
-        <a href="precos.html">
-            <button class="btn">
-                Peça Orçamento
-            </button>
-        </a>
+    <a href="precos.html" class="btn-primary large">Peça Orçamento</a>
+</section>
 
-        
-</div>
+<section class="section fade">
+    <h2>Serviços</h2>
 
-    </section>
-
-
-    <section id="services" class="section fade">
-        <h2>Serviços</h2>
-        <div class="grid">
-        <div class="card">
-        <h3>Website</h3>
-
-        <p>
-            Moderno, rápido e responsivo
-        </p>
-
+    <div class="grid-3">
+        <div class="card fade">
+            <h3>Website</h3>
+            <p>Design moderno, velocidade e responsividade.</p>
         </div>
 
-        <div class="card">
+        <div class="card fade">
             <h3>Sistemas Web</h3>
-
-            <p>
-
-                Sistemas completos personalisados e configurados dependendo das suas necessidades
-
-            </p>
-
-        </div>
-        <div class="card">
-            <h3>Loja online</h3>
-            <p>
-
-                Venda seus produtos online 24h por dia
-
-            </p>
-
+            <p>Plataformas profissionais totalmente personalizadas.</p>
         </div>
 
+        <div class="card fade">
+            <h3>Loja Online</h3>
+            <p>Venda 24/7 com automação e pagamentos.</p>
+        </div>
+    </div>
+</section>
 
+<section class="section fade">
+    <h2>Projetos</h2>
+
+    <div class="grid-3 projects">
+        <div class="project fade">
+            <img src="img/dashboard_uniconect.png">
+            <p>Rede social universitária</p>
         </div>
 
-    </section>
-
-
-
-    <section id="portfolio" class="section-fade">
-        <h2>Projetos</h2>
-
-        <div class="grid">
-            <a href="projetos.html">
-                <div class="project">
-                    <img src="img/dashboard_uniconect.png">
-                    <div class="overlay">
-                        Rede social universitária
-                    </div>
-                </div>
-            </a>
-
-            <a href="projetos.html">
-                <div class="project">
-                    <img src="img/HomepageRestaurante.png">
-                    <div class="overlay">
-                        Website de um Restaurante local
-                    </div>
-                </div>
-            </a>
-
-            <a href="projetos.html">
-                <div class="project">
-                    <img src="img/portfolio.png" alt="projeto 3">
-                    <div class="overlay">
-                        Portfolio pessoal
-                    </div>
-                </div>
-            </a>
-
+        <div class="project fade">
+            <img src="img/HomepageRestaurante.png">
+            <p>Website de Restaurante</p>
         </div>
 
-    </section>
+        <div class="project fade">
+            <img src="img/portfolio.png">
+            <p>Portfólio pessoal</p>
+        </div>
+    </div>
+</section>
 
-
-    <section id="contact" class="section fade">
-        
+<section class="section fade">
     <h2>Envie-nos um email</h2>
 
-        <form action="https://formspree.io/f/xqeypeen" method="POST">
-            <input type="text" name="Nome" placeholder="Seu nome" required>
-            <input type="email" name="Email" placeholder="Email" required>
+    <form action="https://formspree.io/f/xqeypeen" method="POST" class="contact-form fade">
+        <input type="text" name="Nome" placeholder="Nome" required>
+        <input type="email" name="Email" placeholder="Email" required>
 
-            <select name="servico" required>
-                <option value="">Escolha o serviço</option>
-                <option>Criação de Website</option>
-                <option>Desenvolvimento de software</option>
-                <option>Loja Online</option>
-                <option>Outros</option>
-            </select>
-            <textarea name="Mensagem" placeholder="Mensagem"></textarea>
+        <select name="servico" required>
+            <option value="">Escolha o serviço</option>
+            <option>Criação de Website</option>
+            <option>Desenvolvimento de Software</option>
+            <option>Loja Online</option>
+            <option>Outros</option>
+        </select>
 
-            <button type="submit">
+        <textarea name="Mensagem" placeholder="Mensagem"></textarea>
 
-                Enviar
+        <button type="submit" class="btn-primary large">Enviar</button>
+    </form>
+</section>
 
-            </button>
-            
-        </form>
-
-    </section>
-
-    <footer>
-      <p> Copyright © 2026 KlayTech. Todos  direitos reservados</p>
-
-      <p>Este website foi desenvolvido para apresentar nossos serviços e projetos. <br> 
-
-        Todas as marcas, nomes e conteúdos pertencem aos seus respectivos proprietários. <br>
-
-        Construído com foco em performance, design e experiência do utilizador
-    </p>
+<footer class="fade">
+    <p>© 2026 KlayTech — Todos os direitos reservados.</p>
     <p>Email: klay.webservices@gmail.com</p>
+</footer>
 
-    </footer>
+<script src="script.js"></script>
 
-    <script src="script.js"></script>
-    
 </body>
 </html>
