@@ -172,6 +172,14 @@ body {
     background: #25d300;
 }
 
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    color: var(--soft-text);
+    font-size: 0.9rem;
+    color: grey;
+}
+
 /* RESPONSIVO */
 @media (max-width: 900px) {
     .about-grid {
