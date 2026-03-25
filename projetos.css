@@ -50,6 +50,7 @@ body {
 #sapp {
     background-color: #25d366;
     padding: 8px 18px;
+    color: #fff;
 }
 .btn-primary:hover {
     opacity: 0.85;
