@@ -74,6 +74,11 @@ body {
 .btn-primary:hover {
     opacity: 0.85;
 }
+.btn-orcamento {
+    /*Centralizar botao*/
+    display: flex;
+    justify-content: center;
+}
 
 .small { font-size: 14px; padding: 8px 18px; }
 .large { font-size: 16px; }
