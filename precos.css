@@ -23,6 +23,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.nav-content nav a:hover,
+.nav-content nav a.active {
+    color: var(--primary);
+}
 /*Botao de whatsapp*/
 .btn-primary {
     background: var(--primary);
@@ -49,9 +53,9 @@
 }
 
 /* Container da Logo */
-.container-logo img {
-    width: 45px;   /* Ajuste fino do tamanho */
-    height: auto;
+.logo {
+    height: 40px;   /* Ajuste fino do tamanho */
+
 }
 nav a{
     margin: 20px;
