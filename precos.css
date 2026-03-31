@@ -40,6 +40,11 @@
 }
 #sapp {
     background-color: #25d366;
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    display: flex;
+    z-index: 1000;
 }
 .btn-primary:hover {
     opacity: 0.85;
