@@ -1,8 +1,8 @@
 const imagens = [
-"img/KlayTech logo1.png",
-"img/pp.jpg",
+"img/logo2.png",
+"img/pessoas.jpg",
 "img/PcMesa.jpg",
-"img/PcMesa1.jpg",
+"img/setup.jpg",
 "img/cidadeAnoite.jpg",
 "img/TogetherGreat.jpg",
 ];
