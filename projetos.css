@@ -36,6 +36,14 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.nav-content nav a:hover,
+.nav-content nav a.active {
+    color: var(--primary);
+}
+
+.logo {
+    height: 40px;
+}
 /*Botao de whatsapp*/
 .btn-primary {
     background: var(--primary);
