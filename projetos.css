@@ -59,6 +59,11 @@ body {
     background-color: #25d366;
     padding: 8px 18px;
     color: #fff;
+     position: fixed;
+    right: 20px;
+    top: 100px;
+    display: flex;
+    z-index: 1000;
 }
 .btn-primary:hover {
     opacity: 0.85;
