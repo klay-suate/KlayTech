@@ -1,7 +1,7 @@
 :root {
     --bg: #ffffff;
     --text: #1d1d1f;
-    --soft-text: #fff;
+    --soft-text: #6e6e73;
     --primary: #0071e3;
     --radius: 14px;
 }
@@ -92,12 +92,18 @@ body {
     padding-top: 180px;
     text-align: center;
     margin: auto;
-    color: #fff;
     width: 100%;
-    background-image: url(img/pcMesa\ \(2\).jpg);
+    background-image: url(img/escritorio.jpg);
     background-size: cover; /*Imagem de fundo cobrir todo elemnto*/
     background-position: center;/*Centralizar a imagem*/
     background-repeat: no-repeat;/*Evita repeticao da imagem*/
+}   
+.hero::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    /*Diminuir o brilho da imagem de fundo para melhorar legibilidade*/
 }
 
 
@@ -105,6 +111,8 @@ body {
 .hero h1 {
     font-size: 2.9rem;
     font-weight: 700;
+    position: relative;
+    color: white;
 }
 
 .hero p {
@@ -112,6 +120,8 @@ body {
     max-width: 600px;
     color: var(--soft-text);
     font-size: 1.2rem;
+    color: silver;
+    position: relative;
 }
 
 /* SECTION */
@@ -123,6 +133,11 @@ body {
 .section h2 {
     font-size: 2.3rem;
     margin-bottom: 50px;
+}
+.projects p:hover {
+    background-color: #1d1d1f;
+    color: #fff;
+    border-radius: 10px;
 }
 
 /* GRID */
