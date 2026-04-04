@@ -1,53 +1,73 @@
 const services = {
-    basico:{
-        title:"Website Básico",
-        desc:"Ideal para pequenos negócios e freelancers.",
+    software:{
+        title:"Desenvolvimento de Software",
+        desc:"Desenvolvimento de sistemas .",
         features:[
-            "Landing Page moderna",
-            "Dominio próprio",
+            "Desenvolvimento de sistemas personalizados",
+            "Base dde dados estruturada",
             "Design Responsivo",
-            "Formulário de contacto",
-            "SEO básico"
+            "Segurança"
+
         ]
     },
-    institucional:{
-        title:"Website Institucional",
+    web:{
+        title:"Desenvolvimento web",
         desc:"Para empresas que querem presença profissional.",
         features:[
+            "Sistema web completo",
             "Dominio próprio",
+            "Login de usuários",
+            "Banco de dados",
             "Design Responsivo",
             "Formulário de contacto",
-            "SEO básico",
-            "Até 10 páginas",
-            "Design personalizado",
-            "Galeria",
-            "SEO básico",
-            "Integração redes sociais"
+            "Segurança",
         ]
     },
-    sistema:{
-        title:"Sistema Web",
-        desc:"Soluções avançadas e personalizadas.",
+    mobile:{
+        title:"Aplicativos Mobile",
+        desc:"Desenvolvimento de aplicativos para celulares.",
         features:[
             "Login e registo",
-            "Dashboard",
-            "Painel administrativo",
-            "Base de dados",
-            "Segurança "
+            "App informativo ou catálogo",
+            "Banco de dados",
+            "Notificações"
         ]
     },
-    ecommerce:{
-        title:"Loja Online",
-        desc:"Venda seus produtos online 24h por dia.",
+    gestao:{
+        title:"Sistemas de gestão.",
+        desc:"Software que organiza, automatiza e centraliza as operações empresariais",
         features:[
-            "Catálogo de produtos",
-            "Carrinho de compras",
-            "Checkout",
-            "Gestão de pedidos",
-            "Integração de método pagamento"
+            "Gestão empresarial/Clientes",
+            "Controle de vendas",
+            "Gestão de estoque",
+            "Relatórios",
+            "Gestão de pedidos"
         ]
-    }
+    },
+     suporte:{
+        title:"Manutensão e suporte",
+        desc:"Manutensão e suporte de sistemas.",
+        features:[
+            "Correção de erros.",
+            "Suporte.",
+            "Atualizações.",
+            "Monitoramento."
+            
+        ]
+    },
+    automacao:{
+        title:"Automação de processos",
+        desc:"Automatizar tarefas repetitivas.",
+        features:[
+            "Respostas automáticas(WhatsApp/Email.",
+            "Formulários automáticos.",
+            "Chatbots inteligentes.",
+            "Integração com sistemas."
+            
+        ]
+    },
 };
+
 
 function openModal(type){
     const modal = document.getElementById("modal");
