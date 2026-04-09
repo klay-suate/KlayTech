@@ -200,6 +200,70 @@ body{
     font-size:20px;
     cursor:pointer;
 }
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 60px 20px 20px;
+}
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+.footer-col h3 {
+  margin-bottom: 15px;
+}
+.footer-logo {
+  color: #3b82f6;
+  font-size: 22px;
+  font-weight: 700;
+}
+.footer-col p {
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #3b82f6;
+}
+
+.social-links a {
+  margin-right: 15px;
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #3b82f6;
+}
+
+.footer-bottom {
+  border-top: 1px solid #222;
+  margin-top: 40px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+}
 
 @keyframes fade{
     from{opacity:0; transform:scale(0.9);}
@@ -214,10 +278,4 @@ body{
     .modal-content{
         padding:30px;
     }
-}
-
-footer {
-    padding: 20px;
-    color: grey;
-    text-align: center;
 }
